@@ -16,13 +16,19 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="min-h-screen relative container mx-auto ">
+      <body className="min-h-screen relative container mx-auto px-2 md:px-12 pb-4">
         <div>{children}</div>
-        <footer className="flex w-screen absolute bottom-5">
-          <Link className="text-lg mx-5 hover:underline" href="/support">
+        <footer className="absolute flex w-full left-0 bottom-5 px-2 md:px-12 ">
+          <Link
+            className="text-sm md:text-lg mr-3 md:mr-5 hover:underline"
+            href="/support"
+          >
             Support
           </Link>
-          <Link className="text-lg mx-5 hover:underline" href="/privacy">
+          <Link
+            className="text-sm md:text-lg mr-3 md:mr-5 hover:underline"
+            href="/privacy"
+          >
             Privacy Policy
           </Link>
         </footer>
