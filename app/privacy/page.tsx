@@ -1,6 +1,3 @@
-import Image from "next/image";
-import logo from "../public/Icon.svg";
-
 export default function Privacy() {
   return (
     <>
