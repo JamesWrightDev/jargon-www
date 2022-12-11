@@ -18,7 +18,7 @@ export default function Head() {
       </Script>
       <Script
         type="text/javascript"
-        src="https://widget.freshworks.com/widgets/103000003003.js"
+        src="https://euc-widget.freshworks.com/widgets/103000003003.js"
         async
         defer
       />

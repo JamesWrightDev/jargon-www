@@ -21,12 +21,6 @@ export default function RootLayout({
         <footer className="absolute flex w-full left-0 bottom-5 px-2 md:px-12 ">
           <Link
             className="text-sm md:text-lg mr-3 md:mr-5 hover:underline"
-            href="/support"
-          >
-            Support
-          </Link>
-          <Link
-            className="text-sm md:text-lg mr-3 md:mr-5 hover:underline"
             href="/privacy"
           >
             Privacy Policy
