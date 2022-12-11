@@ -4,9 +4,10 @@ import logo from "../public/Icon.svg";
 export default function Home() {
   return (
     <>
-      <div className="container mx-auto py-12">
+      <div className="py-12">
         <div className="flex flex-col items-center">
           <Image
+            className="mb-3"
             src={logo}
             alt="Picture of the author"
             width={75}
@@ -16,7 +17,7 @@ export default function Home() {
             Make sense of all the Jargon
           </h1>
 
-          <button className="bg-black border-solid hover:bg-gray hover:text-black hover:border-black hover:border-1 text-gray font-bold py-4 px-12 rounded text-2xl">
+          <button className="bg-black border-solid border-2 border-red hover:bg-gray hover:text-black hover:border-black hover:border-1 text-gray font-bold py-4 px-12 text-2xl mt-12">
             Install Now
           </button>
         </div>
